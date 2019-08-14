@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Praxigento_EmbedZoho</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/apachepl-1.1.php">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Zoho LiveDesk by Praxigento</summary>
+    <description>Gives your customers the ability to initiate chats right from your site using Zoho LiveDesk service.</description>
+    <notes>Hello world! :)</notes>
+    <authors><author><name>Alex Gusev</name><user>praxigento</user><email>alex@flancer.lv</email></author></authors>
+    <date>2013-03-20</date>
+    <time>09:20:37</time>
+    <contents><target name="magecommunity"><dir name="Praxigento"><dir name="EmbedZoho"><dir name="Block"><file name="Frontend.php" hash="b28a5f55b5d070d88c38bc3ca14e91b0"/></dir><file name="Config.php" hash="29681abe56b83b3f71774697e43393ec"/><dir name="Helper"><file name="Data.php" hash="d8747f8348ca5d2e3e62ba9f9db523d3"/></dir><dir name="etc"><file name="config.xml" hash="4e59f282db8bb3b31a40c9564dd4bc93"/><file name="system.xml" hash="11225c09ca7fae7917a69305c929041a"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="prxgt"><dir name="embd_zoho"><file name="embd_zoho_frontend_layout.xml" hash="f5e212eefb23fab3bf331c2b66c73d80"/></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="prxgt"><dir name="embd_zoho"><file name="prxgt_embd_zoho.csv" hash="187145a5ffeccd995a09ef73b451865a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Praxigento_EmbedZoho.xml" hash="afe9c4f8c05620ce9f7a0f7b7b94dca7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
