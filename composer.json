@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Praxigento_EmbedZoho",
+    "name": "OpenMageModuleFostering\/Praxigento_EmbedZoho",
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
     "description": "Zoho LiveDesk by Praxigento",
     "authors": [
-    {
-        "name": "Alex Gusev",
-        "email": "alex@flancer.lv"
-    }
-],
+        {
+            "name": "Alex Gusev",
+            "email": "alex@flancer.lv"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
